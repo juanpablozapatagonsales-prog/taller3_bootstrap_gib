@@ -26,295 +26,305 @@
   <header class="sticky-top">
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark shadow w-100">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><i class="bi bi-cup-hot-fill"></i></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+
+        <a class="navbar-brand" >
+          <i class="bi bi-cup-hot-fill"></i>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar"
+          aria-label="Abrir menú de navegación">
           <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
-          <ul class="navbar-nav gap-2">
-            <li class="nav-item ">
-              <a href="../index.html" class="btn btn-success m-0.5 bg-primary"> <i
-                  class="bi bi-house me-1"></i>inicio</a>
+          <ul class="navbar-nav gap-3 w-100 align-items-center">
+
+            <li class="nav-item">
+              <a class="btn btn-outline-light" href="../index.html">
+                <i class="bi bi-house me-1"></i>Inicio
+              </a>
             </li>
+
             <li class="nav-item dropdown">
-              <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
-                <i class="bi bi-folder me-1"></i>modulos
-              </button>
+              <a class="btn btn-outline-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="bi bi-folder me-1"></i>Modulos
+              </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Link 1</a></li>
-                <li><a class="dropdown-item" href="#">Link 2</a></li>
-                <li><a class="dropdown-item" href="#">Link 3</a></li>
+                <li><a class="dropdown-item" href="#">Usuarios</a></li>
+                <li><a class="dropdown-item" href="#">Productos</a></li>
+                <li><a class="dropdown-item" href="#">Inscripciones</a></li>
               </ul>
             </li>
+
             <li class="nav-item dropdown">
-              <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
-                <i class="bi bi-file-earmark-bar-graph me-1"></i>consultas
-              </button>
+              <a class="btn btn-outline-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="bi bi-file-earmark-bar-graph me-1"></i>Consultas
+              </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Link 1</a></li>
-                <li><a class="dropdown-item" href="#">Link 2</a></li>
-                <li><a class="dropdown-item" href="#">Link 3</a></li>
+                <li><a class="dropdown-item" href="#">Historial General</a></li>
+                <li><a class="dropdown-item" href="#">Reportes Mensual</a></li>
+                <li><a class="dropdown-item" href="#">Buscar Por Codigo</a></li>
               </ul>
             </li>
-            <li class="nav-item dropdown">
-              <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
-                <i class="bi bi-headset me-2"></i>soporte
-              </button>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Link 1</a></li>
-                <li><a class="dropdown-item" href="#">Link 2</a></li>
-                <li><a class="dropdown-item" href="#">Link 3</a></li>
-              </ul>
+
+
+            <li class="nav-item">
+              <a class="btn btn-outline-light" href="https://github.com/juanpablozapatagonsales-prog/taller3_bootstrap_gib">
+                <i class="bi bi-headset me-1"></i>Soporte
+              </a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
   </header>
-  <div class="container-fluid m-lg-1 " style="border-radius: 10px;">
-    <table class="table table-bordered table-sm">
-      <thead class="container-fluid border-4">
-        <tr class="table-danger">
-          <th>primernombre</th>
-          <th>segundonombre</th>
-          <th>Email</th>
-          <th>pais origen</th>
-          <th>nacionalidad</th>
-          <th>phone number</th>
-          <th>height</th>
-          <th>C.C</th>
-          <th>estado laboral</th>
-        </tr>
-      </thead>
-      <tbody class="border-4">
-        <tr class="table-dark">
-          <td>John</td>
-          <td>Doe</td>
-          <td>john@example.com</td>
-          <td>EE.UU</td>
-          <td>estado unidence</td>
-          <td>32863626</td>
-          <td>5.6</td>
-          <td>1029102821</td>
-          <td>trabajando</td>
-        </tr>
-        <tr class="table-primary">
-          <td>Mary</td>
-          <td>Moe</td>
-          <td>mary@example.com</td>
-          <td>EE.UU</td>
-          <td>estado unidence</td>
-          <td>32863626</td>
-          <td>5.6</td>
-          <td>1029102821</td>
-          <td>trabajando</td>
-        </tr>
-        <tr class="table-success">
-          <td>July</td>
-          <td>Dooley</td>
-          <td>july@example.com</td>
-          <td>EE.UU</td>
-          <td>estado unidence</td>
-          <td>32863626</td>
-          <td>5.6</td>
-          <td>1029102821</td>
-          <td>trabajando</td>
-        </tr>
-        <tr class="table-info">
-          <td>juan</td>
-          <td>pablo</td>
-          <td>juan@gmail.com</td>
-          <td>EE.UU</td>
-          <td>estado unidence</td>
-          <td>32863626</td>
-          <td>5.6</td>
-          <td>1029102821</td>
-          <td>trabajando</td>
-        </tr>
-        <tr class="table-warning">
-          <td>alejo</td>
-          <td>sosa</td>
-          <td>alejo@gmail.com</td>
-          <td>EE.UU</td>
-          <td>estado unidence</td>
-          <td>3284345</td>
-          <td>5.6</td>
-          <td>10291028546</td>
-          <td>trabajando</td>
-        </tr>
-        <tr class="table-danger">
-          <td>yostin</td>
-          <td>jimenez</td>
-          <td>yostin@gmail.com</td>
-          <td>EE.UU</td>
-          <td>estado unidence</td>
-          <td>32863626</td>
-          <td>5.6</td>
-          <td>1029102821</td>
-          <td>trabajando</td>
-        </tr>
-        <tr class="table-secondary">
-          <td>cristian</td>
-          <td>camilo</td>
-          <td>cristian@gmail.com</td>
-          <td>EE.UU</td>
-          <td>estado unidence</td>
-          <td>32863626</td>
-          <td>5.6</td>
-          <td>1029102821</td>
-          <td>trabajando</td>
-        </tr>
-        <tr class="table-light">
-          <td>estiben</td>
-          <td>jhon</td>
-          <td>estiben@gmail.com</td>
-          <td>EE.UU</td>
-          <td>estado unidence</td>
-          <td>32863626</td>
-          <td>5.6</td>
-          <td>1029102821</td>
-          <td>trabajando</td>
-        </tr>
-        <tr class="table-danger">
-          <td>jose</td>
-          <td>pablo</td>
-          <td>jose@gmail.com</td>
-          <td>colombia</td>
-          <td>colombiano</td>
-          <td>32863626</td>
-          <td>5.4</td>
-          <td>10291023421</td>
-          <td>desempleado</td>
-        </tr>
-        <tr class="table-success">
-          <td>carlos</td>
-          <td>jose</td>
-          <td>carlos@gmail.com</td>
-          <td>EE.UU</td>
-          <td>estado unidence</td>
-          <td>32863626</td>
-          <td>5.5</td>
-          <td>1029102821</td>
-          <td>trabajando</td>
-        </tr>
-        <tr class="table-primary">
-          <td>yeison</td>
-          <td>pedro</td>
-          <td>yeison@gmail.com</td>
-          <td>EE.UU</td>
-          <td>estado unidence</td>
-          <td>32863626</td>
-          <td>5.9</td>
-          <td>1043402821</td>
-          <td>trabajando</td>
-        </tr>
-        <tr class="table-warning">
-          <td>paola</td>
-          <td>sosa</td>
-          <td>paola@gmail.com</td>
-          <td>venezuela</td>
-          <td>venezolana</td>
-          <td>8772983</td>
-          <td>5.8</td>
-          <td>1029102821</td>
-          <td>trabajando</td>
-        </tr>
-        <tr class="table-info">
-          <td>mariana</td>
-          <td>lopez</td>
-          <td>mariana@gmail.com</td>
-          <td>colombia</td>
-          <td>colombiana</td>
-          <td>328623</td>
-          <td>5.9</td>
-          <td>1032102821</td>
-          <td>trabajando</td>
-        </tr>
-        <tr class="table-secondary">
-          <td>camila</td>
-          <td>zapata</td>
-          <td>camila@gmail.com</td>
-          <td>alemania</td>
-          <td>alemania</td>
-          <td>177738372</td>
-          <td>5.1</td>
-          <td>1029102821</td>
-          <td>estudiando</td>
-        </tr>
-        <tr class="table-light">
-          <td>sara</td>
-          <td>zapata</td>
-          <td>sara@gmail.com</td>
-          <td>EE.UU</td>
-          <td>estado unidence</td>
-          <td>3223626</td>
-          <td>5.7</td>
-          <td>1029102821</td>
-          <td>estudiando</td>
-        </tr>
-        <tr class="table-success">
-          <td>yenni</td>
-          <td>guzman</td>
-          <td>yenni@gmail.com</td>
-          <td>colombia</td>
-          <td>colombiana</td>
-          <td>32863626</td>
-          <td>4.6</td>
-          <td>1029102821</td>
-          <td>trabajando</td>
-        </tr>
-        <tr class="table-primary">
-          <td>fredy</td>
-          <td>lopez</td>
-          <td>fredy@gmail.com</td>
-          <td>colombia</td>
-          <td>colombiana</td>
-          <td>32863626</td>
-          <td>7.6</td>
-          <td>1029102821</td>
-          <td>trabajando</td>
-        </tr>
-        <tr class="table-warning">
-          <td>sebas</td>
-          <td>gonzalez</td>
-          <td>sebas@gmail.com</td>
-          <td>EE.UU</td>
-          <td>estado unidence</td>
-          <td>32863626</td>
-          <td>6.6</td>
-          <td>1029102821</td>
-          <td>trabajando</td>
-        </tr>
-        <tr class="table-info">
-          <td>paula</td>
-          <td>pablo</td>
-          <td>juan@gmail.com</td>
-          <td>EE.UU</td>
-          <td>estado unidence</td>
-          <td>32863626</td>
-          <td>5.6</td>
-          <td>1029102821</td>
-          <td>trabajando</td>
-        </tr>
-        <tr class="table-danger">
-          <td>carlos</td>
-          <td>juan</td>
-          <td>carlos@gmail.com</td>
-          <td>colombia</td>
-          <td>colombiano</td>
-          <td>322454666</td>
-          <td>5.6</td>
-          <td>1029102821</td>
-          <td>desempleado</td>
-        </tr>
+  <main>
+    <div class="container-fluid m-lg-1 " style="border-radius: 10px;">
+      <table class="table table-bordered table-sm">
+        <thead class="container-fluid border-4">
+          <tr class="table-danger">
+            <th>primernombre</th>
+            <th>segundonombre</th>
+            <th>Email</th>
+            <th>pais origen</th>
+            <th>nacionalidad</th>
+            <th>phone number</th>
+            <th>height</th>
+            <th>C.C</th>
+            <th>estado laboral</th>
+          </tr>
+        </thead>
+        <tbody class="border-4">
+          <tr class="table-dark">
+            <td>John</td>
+            <td>Doe</td>
+            <td>john@example.com</td>
+            <td>EE.UU</td>
+            <td>estado unidence</td>
+            <td>32863626</td>
+            <td>5.6</td>
+            <td>1029102821</td>
+            <td>trabajando</td>
+          </tr>
+          <tr class="table-primary">
+            <td>Mary</td>
+            <td>Moe</td>
+            <td>mary@example.com</td>
+            <td>EE.UU</td>
+            <td>estado unidence</td>
+            <td>32863626</td>
+            <td>5.6</td>
+            <td>1029102821</td>
+            <td>trabajando</td>
+          </tr>
+          <tr class="table-success">
+            <td>July</td>
+            <td>Dooley</td>
+            <td>july@example.com</td>
+            <td>EE.UU</td>
+            <td>estado unidence</td>
+            <td>32863626</td>
+            <td>5.6</td>
+            <td>1029102821</td>
+            <td>trabajando</td>
+          </tr>
+          <tr class="table-info">
+            <td>juan</td>
+            <td>pablo</td>
+            <td>juan@gmail.com</td>
+            <td>EE.UU</td>
+            <td>estado unidence</td>
+            <td>32863626</td>
+            <td>5.6</td>
+            <td>1029102821</td>
+            <td>trabajando</td>
+          </tr>
+          <tr class="table-warning">
+            <td>alejo</td>
+            <td>sosa</td>
+            <td>alejo@gmail.com</td>
+            <td>EE.UU</td>
+            <td>estado unidence</td>
+            <td>3284345</td>
+            <td>5.6</td>
+            <td>10291028546</td>
+            <td>trabajando</td>
+          </tr>
+          <tr class="table-danger">
+            <td>yostin</td>
+            <td>jimenez</td>
+            <td>yostin@gmail.com</td>
+            <td>EE.UU</td>
+            <td>estado unidence</td>
+            <td>32863626</td>
+            <td>5.6</td>
+            <td>1029102821</td>
+            <td>trabajando</td>
+          </tr>
+          <tr class="table-secondary">
+            <td>cristian</td>
+            <td>camilo</td>
+            <td>cristian@gmail.com</td>
+            <td>EE.UU</td>
+            <td>estado unidence</td>
+            <td>32863626</td>
+            <td>5.6</td>
+            <td>1029102821</td>
+            <td>trabajando</td>
+          </tr>
+          <tr class="table-light">
+            <td>estiben</td>
+            <td>jhon</td>
+            <td>estiben@gmail.com</td>
+            <td>EE.UU</td>
+            <td>estado unidence</td>
+            <td>32863626</td>
+            <td>5.6</td>
+            <td>1029102821</td>
+            <td>trabajando</td>
+          </tr>
+          <tr class="table-danger">
+            <td>jose</td>
+            <td>pablo</td>
+            <td>jose@gmail.com</td>
+            <td>colombia</td>
+            <td>colombiano</td>
+            <td>32863626</td>
+            <td>5.4</td>
+            <td>10291023421</td>
+            <td>desempleado</td>
+          </tr>
+          <tr class="table-success">
+            <td>carlos</td>
+            <td>jose</td>
+            <td>carlos@gmail.com</td>
+            <td>EE.UU</td>
+            <td>estado unidence</td>
+            <td>32863626</td>
+            <td>5.5</td>
+            <td>1029102821</td>
+            <td>trabajando</td>
+          </tr>
+          <tr class="table-primary">
+            <td>yeison</td>
+            <td>pedro</td>
+            <td>yeison@gmail.com</td>
+            <td>EE.UU</td>
+            <td>estado unidence</td>
+            <td>32863626</td>
+            <td>5.9</td>
+            <td>1043402821</td>
+            <td>trabajando</td>
+          </tr>
+          <tr class="table-warning">
+            <td>paola</td>
+            <td>sosa</td>
+            <td>paola@gmail.com</td>
+            <td>venezuela</td>
+            <td>venezolana</td>
+            <td>8772983</td>
+            <td>5.8</td>
+            <td>1029102821</td>
+            <td>trabajando</td>
+          </tr>
+          <tr class="table-info">
+            <td>mariana</td>
+            <td>lopez</td>
+            <td>mariana@gmail.com</td>
+            <td>colombia</td>
+            <td>colombiana</td>
+            <td>328623</td>
+            <td>5.9</td>
+            <td>1032102821</td>
+            <td>trabajando</td>
+          </tr>
+          <tr class="table-secondary">
+            <td>camila</td>
+            <td>zapata</td>
+            <td>camila@gmail.com</td>
+            <td>alemania</td>
+            <td>alemania</td>
+            <td>177738372</td>
+            <td>5.1</td>
+            <td>1029102821</td>
+            <td>estudiando</td>
+          </tr>
+          <tr class="table-light">
+            <td>sara</td>
+            <td>zapata</td>
+            <td>sara@gmail.com</td>
+            <td>EE.UU</td>
+            <td>estado unidence</td>
+            <td>3223626</td>
+            <td>5.7</td>
+            <td>1029102821</td>
+            <td>estudiando</td>
+          </tr>
+          <tr class="table-success">
+            <td>yenni</td>
+            <td>guzman</td>
+            <td>yenni@gmail.com</td>
+            <td>colombia</td>
+            <td>colombiana</td>
+            <td>32863626</td>
+            <td>4.6</td>
+            <td>1029102821</td>
+            <td>trabajando</td>
+          </tr>
+          <tr class="table-primary">
+            <td>fredy</td>
+            <td>lopez</td>
+            <td>fredy@gmail.com</td>
+            <td>colombia</td>
+            <td>colombiana</td>
+            <td>32863626</td>
+            <td>7.6</td>
+            <td>1029102821</td>
+            <td>trabajando</td>
+          </tr>
+          <tr class="table-warning">
+            <td>sebas</td>
+            <td>gonzalez</td>
+            <td>sebas@gmail.com</td>
+            <td>EE.UU</td>
+            <td>estado unidence</td>
+            <td>32863626</td>
+            <td>6.6</td>
+            <td>1029102821</td>
+            <td>trabajando</td>
+          </tr>
+          <tr class="table-info">
+            <td>paula</td>
+            <td>pablo</td>
+            <td>juan@gmail.com</td>
+            <td>EE.UU</td>
+            <td>estado unidence</td>
+            <td>32863626</td>
+            <td>5.6</td>
+            <td>1029102821</td>
+            <td>trabajando</td>
+          </tr>
+          <tr class="table-danger">
+            <td>carlos</td>
+            <td>juan</td>
+            <td>carlos@gmail.com</td>
+            <td>colombia</td>
+            <td>colombiano</td>
+            <td>322454666</td>
+            <td>5.6</td>
+            <td>1029102821</td>
+            <td>desempleado</td>
+          </tr>
 
-      </tbody>
-    </table>
-  </div>
+        </tbody>
+      </table>
+    </div>
+  </main>
   <footer class="text-center py-4 mt-5 border-top">
     <strong>juan pablo zapata gonzalez todos los derechos reservados</strong>
   </footer>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
